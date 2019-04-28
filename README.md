@@ -1,6 +1,6 @@
 # MiniGame1-kkoenig
 
-##FlowerPower 2D Game
+###FlowerPower 2D Game
 
 Collect as many flowers as possible but be careful, there are bombs too!
 
@@ -13,15 +13,15 @@ Collect as many flowers as possible but be careful, there are bombs too!
 - Scripting Runtime: .NET 35 Equivalent
 - API Compatility: .NET 2.0 Subset
 
-### Target PLatform
+### Target Platform
 WebGL
 
 ### Concept
 - Idea: You have 60 seconds to collect with your character as many flowers as you can. With collecting them, your score will raise. If you touch one of the bombs you will loose points. At the end the score shows you your points.  
 - Scenes scribbles: 
-<div> <img src="./Screenshots/Minigame1-SceneIntro" width="300"> </div>
-<div> <img src="./Screenshots/Minigame1-SceneMain" width="300"> </div>
-<div> <img src="./Screenshots/Minigame1-SceneEnd" width="300"> </div>
+<div> <img src="./Screenshots/Minigame1-SceneIntro.png" width="300"> </div>
+<div> <img src="./Screenshots/Minigame1-SceneMain.png" width="300"> </div>
+<div> <img src="./Screenshots/Minigame1-SceneEnd.png" width="300"> </div>
 
 ### Control
 Move the character with the arrow keys. 
