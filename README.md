@@ -1,6 +1,6 @@
 # MiniGame1-kkoenig
 
-###FlowerPower 2D Game
+FlowerPower 2D Game
 
 Collect as many flowers as possible but be careful, there are bombs too!
 
