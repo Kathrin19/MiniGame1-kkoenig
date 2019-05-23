@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FLower : MonoBehaviour {
+public class Flower : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
