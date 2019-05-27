@@ -4,7 +4,7 @@ FlowerPower 2D Game
 
 Collect as many flowers as possible but be careful, there are bombs too! Are you going to save nature or will you support the dreadful destructive inventions of humans?
 
-**Progress:** 30%
+**Progress:** 60%
 
 ### Development Platform
 - OS: Windows 10
