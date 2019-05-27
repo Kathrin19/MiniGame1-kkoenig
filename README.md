@@ -26,7 +26,7 @@ WebGL
 ### Control
 Move the character with the arrow keys. 
 
-###Lessons learned:
+### Lessons learned:
 - Setup of a simple game
 - RandomGenerator
 - Player Movement (x-Axis)
