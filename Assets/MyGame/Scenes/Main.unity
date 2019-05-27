@@ -139,7 +139,7 @@ Transform:
   m_LocalScale: {x: 76.8, y: 76.8, z: 76.8}
   m_Children: []
   m_Father: {fileID: 460162422}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &152605373
 Prefab:
@@ -449,10 +449,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 639956275}
-  - {fileID: 744055904}
   - {fileID: 69852402}
   - {fileID: 1285402627}
+  - {fileID: 639956275}
+  - {fileID: 744055904}
   - {fileID: 172735390}
   - {fileID: 875478286}
   m_Father: {fileID: 0}
@@ -498,7 +498,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.48, y: 12.24}
+    oldSize: {x: 9.3, y: 11.45}
     newSize: {x: 7.48, y: 12.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -560,11 +560,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 639956272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.9120007, y: -271.104, z: -6912.0005}
-  m_LocalScale: {x: 20.202787, y: 20.202787, z: 20.202787}
+  m_LocalPosition: {x: -6.912, y: -283, z: 0}
+  m_LocalScale: {x: 14.605876, y: 14.605876, z: 14.605876}
   m_Children: []
   m_Father: {fileID: 460162422}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &639956276
 MonoBehaviour:
@@ -817,7 +817,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 460162422}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &875478285
 GameObject:
@@ -1062,7 +1062,7 @@ Transform:
   m_LocalScale: {x: 76.8, y: 76.8, z: 76.8}
   m_Children: []
   m_Father: {fileID: 460162422}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311781366
 GameObject:
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 1311781369}
   - component: {fileID: 1311781368}
   m_Layer: 5
-  m_Name: ScoreText
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

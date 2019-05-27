@@ -10,16 +10,16 @@ public class Score : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Triggerevent " + collision.gameObject.name);
+        Debug.Log("TriggereventPlayer" + collision.gameObject.name);
 
-        if (collision.gameObject.name == "FlowerPickup")
+        if (collision.gameObject.name == "FlowerPickup(Clone)")
         {
             score += 5;
             Debug.Log("score " + score);
             pointsScore.text = score.ToString();
         }
 
-        if (collision.gameObject.name == "BombPickup")
+        if (collision.gameObject.name == "BombPickup(Clone)")
         {
             score -= 10;
             Debug.Log("score " + score);

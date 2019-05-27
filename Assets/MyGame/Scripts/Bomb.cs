@@ -10,5 +10,10 @@ public class Bomb : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.name == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
