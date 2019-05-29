@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class Score : MonoBehaviour
 {
-    private int score = 0;
     public TextMeshProUGUI pointsScore;
+    public myScore scoreCount; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,16 +15,23 @@ public class Score : MonoBehaviour
 
         if (collision.gameObject.name == "FlowerPickup(Clone)")
         {
-            score += 5;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
+            scoreCount.score += 5;
+            Debug.Log("score " + scoreCount.score);
+            pointsScore.text = scoreCount.score.ToString();
         }
 
         if (collision.gameObject.name == "BombPickup(Clone)")
         {
-            score -= 10;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
+            scoreCount.score -= 10;
+            Debug.Log("score " + scoreCount.score);
+            pointsScore.text = scoreCount.score.ToString();
+        }
+
+        if (collision.gameObject.name == "Flower3Pickup(Clone)")
+        {
+            scoreCount.score += 5;
+            Debug.Log("score " + scoreCount.score);
+            pointsScore.text = scoreCount.score.ToString();
         }
     }
 
