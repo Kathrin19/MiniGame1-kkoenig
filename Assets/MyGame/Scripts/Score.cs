@@ -9,6 +9,11 @@ public class Score : MonoBehaviour
     public TextMeshProUGUI pointsScore;
     public myScore scoreCount; 
 
+    void Start ()
+    {
+        scoreCount.score = 0;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("TriggereventPlayer" + collision.gameObject.name);
