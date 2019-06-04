@@ -4,7 +4,7 @@ FlowerPower 2D Game
 
 Collect as many flowers as possible but be careful, there are bombs too! Are you going to save nature or will you support the dreadful destructive inventions of humans?
 
-**Progress:** 80%
+**Progress:** 90%
 
 ### Development Platform
 - OS: Windows 10
@@ -22,6 +22,7 @@ WebGL
 <div> <img src="./Screenshots/Minigame1-SceneIntro.png" width="300"> </div>
 <div> <img src="./Screenshots/Minigame1-SceneMain.png" width="300"> </div>
 <div> <img src="./Screenshots/Minigame1-SceneEnd.png" width="300"> </div>
+<div> <img src="./Screenshots/MainScene.JPG" width="300"> </div>
 
 ### Control
 Move the character with the arrow keys. 
@@ -32,6 +33,7 @@ Move the character with the arrow keys.
 - Player Movement (x-Axis)
 - SceneLoader
 - Timer
+- Scriptable Objects
 
 ### 
 
