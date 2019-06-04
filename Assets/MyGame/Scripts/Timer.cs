@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        countdown.text = (" " + timeLeft);
+        countdown.text = ("00: " + timeLeft);
         if (timeLeft == 0)
         {
             SceneManager.LoadScene("End");
