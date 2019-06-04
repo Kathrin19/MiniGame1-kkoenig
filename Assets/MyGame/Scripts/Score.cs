@@ -25,9 +25,9 @@ public class Score : MonoBehaviour
             pointsScore.text = scoreCount.score.ToString();
         }
 
-        if (collision.gameObject.name == "BombPickup(Clone)")
+        if (collision.gameObject.name == "Flower2Pickup(Clone)")
         {
-            scoreCount.score -= 10;
+            scoreCount.score += 5;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
@@ -35,6 +35,13 @@ public class Score : MonoBehaviour
         if (collision.gameObject.name == "Flower3Pickup(Clone)")
         {
             scoreCount.score += 5;
+            Debug.Log("score " + scoreCount.score);
+            pointsScore.text = scoreCount.score.ToString();
+        }
+
+        if (collision.gameObject.name == "BombPickup(Clone)")
+        {
+            scoreCount.score -= 10;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
