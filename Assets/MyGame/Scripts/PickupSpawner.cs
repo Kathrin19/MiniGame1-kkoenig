@@ -17,10 +17,13 @@ public class PickupSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0, 3));
             SpawnFlower();
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0, 3));
             SpawnFlower3();
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0, 3));
             SpawnFlower2();
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0, 3));
             SpawnBomb();
         }
 
