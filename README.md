@@ -22,7 +22,7 @@ WebGL
 <div> <img src="./Screenshots/Minigame1-SceneIntro.png" width="300"> </div>
 <div> <img src="./Screenshots/Minigame1-SceneMain.png" width="300"> </div>
 <div> <img src="./Screenshots/Minigame1-SceneEnd.png" width="300"> </div>
-<div> <img src="./Screenshots/MainScene.JPG" width="300"> </div>
+<div> <img src="./Screenshots/MainScene.jpg" width="300"> </div>
 
 ### Control
 Move the character with the arrow keys. 
