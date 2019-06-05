@@ -26,7 +26,6 @@ public class PickupSpawner : MonoBehaviour
             yield return new WaitForSeconds(UnityEngine.Random.Range(0, 3));
             SpawnBomb();
         }
-
     }
 
     private void SpawnFlower()

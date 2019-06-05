@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
         transform.position = new Vector2(newPosX, transform.position.y);
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
