@@ -4,7 +4,7 @@ FlowerPower 2D Game
 
 Collect as many flowers as possible but be careful, there are bombs too! Are you going to save nature or will you support the dreadful destructive inventions of humans?
 
-**Progress:** 90%
+**Progress:** 100%
 
 ### Development Platform
 - OS: Windows 10
@@ -15,6 +15,10 @@ Collect as many flowers as possible but be careful, there are bombs too! Are you
 
 ### Target Platform
 WebGL
+
+### Resources
+- All Illustrations by Kathrin König
+- TextMeshPro (TMP) needed
 
 ### Concept
 - Idea: You have 60 seconds to collect with your character as many flowers as you can. With collecting them, your score will raise. If you touch one of the bombs you will loose points. At the end the score shows you your points.  
