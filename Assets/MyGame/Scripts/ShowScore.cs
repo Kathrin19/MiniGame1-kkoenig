@@ -12,5 +12,4 @@ public class ShowScore : MonoBehaviour
     {
         scorePoints.text = scoreCount.score.ToString();	
 	}
-	
 }
