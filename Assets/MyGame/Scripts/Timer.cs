@@ -8,10 +8,12 @@ public class Timer : MonoBehaviour
 {
     public int timeLeft = 60;
     public TextMeshProUGUI countdown;
+    private string endScene = "End";
+    private string loseTime = "LoseTime";
 
     void Start()
     {
-        StartCoroutine("LoseTime");
+        StartCoroutine(loseTime);
         Time.timeScale = 1;
     }
     void Update()
@@ -19,7 +21,7 @@ public class Timer : MonoBehaviour
         countdown.text = ("00:" + timeLeft.ToString("00"));
         if (timeLeft == 0)
         {
-            SceneManager.LoadScene("End");
+            SceneManager.LoadScene(endScene);
         }
     }
 
