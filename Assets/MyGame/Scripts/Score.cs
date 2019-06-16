@@ -11,6 +11,8 @@ public class Score : MonoBehaviour
     private string flower2Pickup = "Flower2Pickup(Clone)";
     private string flower3Pickup = "Flower3Pickup(Clone)";
     private string bombPickup = "BombPickup(Clone)";
+    private int positiveScore = 5;
+    private int negativeScore = 10;
 
     void Start ()
     {
@@ -23,28 +25,28 @@ public class Score : MonoBehaviour
 
         if (collision.gameObject.name == flowerPickup)
         {
-            scoreCount.score += 5;
+            scoreCount.score += positiveScore;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
         if (collision.gameObject.name == flower2Pickup)
         {
-            scoreCount.score += 5;
+            scoreCount.score += positiveScore;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
         if (collision.gameObject.name == flower3Pickup)
         {
-            scoreCount.score += 5;
+            scoreCount.score += positiveScore;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
         if (collision.gameObject.name == bombPickup)
         {
-            scoreCount.score -= 10;
+            scoreCount.score -= negativeScore;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
