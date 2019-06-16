@@ -6,7 +6,11 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     public TextMeshProUGUI pointsScore;
-    public MyScore scoreCount; 
+    public MyScore scoreCount;
+    private string flowerPickup = "FlowerPickup(Clone)";
+    private string flower2Pickup = "Flower2Pickup(Clone)";
+    private string flower3Pickup = "Flower3Pickup(Clone)";
+    private string bombPickup = "BombPickup(Clone)";
 
     void Start ()
     {
@@ -17,28 +21,28 @@ public class Score : MonoBehaviour
     {
         Debug.Log("TriggereventPlayer" + collision.gameObject.name);
 
-        if (collision.gameObject.name == "FlowerPickup(Clone)")
+        if (collision.gameObject.name == flowerPickup)
         {
             scoreCount.score += 5;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
-        if (collision.gameObject.name == "Flower2Pickup(Clone)")
+        if (collision.gameObject.name == flower2Pickup)
         {
             scoreCount.score += 5;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
-        if (collision.gameObject.name == "Flower3Pickup(Clone)")
+        if (collision.gameObject.name == flower3Pickup)
         {
             scoreCount.score += 5;
             Debug.Log("score " + scoreCount.score);
             pointsScore.text = scoreCount.score.ToString();
         }
 
-        if (collision.gameObject.name == "BombPickup(Clone)")
+        if (collision.gameObject.name == bombPickup)
         {
             scoreCount.score -= 10;
             Debug.Log("score " + scoreCount.score);
